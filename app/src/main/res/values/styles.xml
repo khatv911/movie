@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextAppearance.Movie.Display1" parent="@style/TextAppearance.AppCompat.Display1"/>
+    <style name="TextAppearance.Movie.Display2" parent="@style/TextAppearance.AppCompat.Display2"/>
+    <style name="TextAppearance.Movie.Display3" parent="@style/TextAppearance.AppCompat.Display3"/>
+    <style name="TextAppearance.Movie.Display4" parent="@style/TextAppearance.AppCompat.Display4"/>
+
+
+    <style name="TextAppearance.Movie.Title" parent="@style/TextAppearance.AppCompat.Title">
+    </style>
+
+    <style name="TextAppearance.Movie.Title.Inverse" parent="@style/TextAppearance.AppCompat.Title.Inverse">
+    </style>
+
+    <style name="TextAppearance.Movie.Subhead" parent="@style/TextAppearance.AppCompat.Subhead">
+
+    </style>
+
+    <style name="TextAppearance.Movie.Body2" parent="@style/TextAppearance.AppCompat.Body2">
+        Movie
+    </style>
+
+    <style name="TextAppearance.Movie.Body1" parent="@style/TextAppearance.AppCompat.Body1">
+        Movie
+    </style>
+
+    <style name="TextAppearance.Movie.Caption" parent="@style/TextAppearance.AppCompat.Caption">
+    </style>
+</resources>

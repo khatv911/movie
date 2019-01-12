@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">shared</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="retry">Retry</string>
+    <string name="message_error_service_unavailable">Service Unvailable!</string>
+    <string name="message_error_internal_server_error">Internal Server Error</string>
+    <string name="message_error_client_error">Client Error</string>
+</resources>
