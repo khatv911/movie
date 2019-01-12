@@ -74,7 +74,8 @@ abstract class MoviesScreen : SimpleRecyclerViewFragment<List<Movie>, MoviesView
             val movie = (item as MovieItem).movie
             startActivity(MovieDetailActivity.newIntent(requireContext(), movie.id))
         }
-        mRecyclerView.addOnScrollListener(scrollListener)
+            // still can't figure it out
+//        mRecyclerView.addOnScrollListener(scrollListener)
         mRecyclerView.addItemDecoration(
             MovieItemDecoration(
                 requireContext(),
